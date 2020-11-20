@@ -1,0 +1,46 @@
+body{
+    position: relative;
+    background-size: 100% 250%;
+    margin:0;
+}
+
+.navbar{
+    position: absolute;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+}
+
+.first{
+    top: 25px;
+    right: 20px;
+    color: white;
+}
+
+.second{
+    top: 45px;
+    right: 20px;
+    color: white;
+}
+
+.third{
+    top: 65px;
+    right: 20px;
+    color: white;
+}
+
+div{
+    display: block;
+}
+
+.bundle{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
