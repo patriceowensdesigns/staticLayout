@@ -1,11 +1,12 @@
 .wrapper{
-    position: absolute;
-    display: flex;
+    /* position: absolute; */
+    /* display: flex; */
     justify-content: center; 
-    background-size: 100% 250%;
+    background-size: cover;
+    background-image: url(/assets/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg);
     margin:0;
-    width: 1940;
-    height: 800;
+    width: 100%;
+    /* height: 800; */
 }
 
 .login{
@@ -30,11 +31,11 @@ button{
 }
 
 .parentContainer{
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    /* align-items: center; */
+    /* flex-direction: column; */
 }
 .child1{
     position: relative;
@@ -128,6 +129,7 @@ button{
 	align-items: center;
     align-content: stretch;
     background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+    width: 100%;
 }
 
 .logo{
