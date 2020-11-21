@@ -1,46 +1,138 @@
-body{
-    position: relative;
+.wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center; 
     background-size: 100% 250%;
     margin:0;
+    width: 1940;
+    height: 800;
 }
 
-.navbar{
-    position: absolute;
-    top:0;
-    display: flex;
-    flex-direction: row;
-    background-color: transparent;
-    height: 40px;
-    width: 100%;
+.login{
+    margin-right: 32px;
 }
 
-.first{
-    top: 25px;
-    right: 20px;
-    color: white;
-}
-
-.second{
-    top: 45px;
-    right: 20px;
-    color: white;
-}
-
-.third{
-    top: 65px;
-    right: 20px;
-    color: white;
-}
-
-div{
+button{
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    background: none;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 23px 0 17px;
+    margin: 4px 0px;
+    border: none;
     display: block;
+    text-transform: uppercase; 
+    line-height: 1.15;
+    border-radius: 0;
 }
 
-.bundle{
+.parentContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.child1{
+    position: relative;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.3;
+    z-index: 0;
+    padding: 40px 40px;
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+.child2{
+    position: relative;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    line-height: 1.3;
+    z-index: 0;
+    padding: 40px 40px;
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+.child3{
+    position: relative;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    line-height: 1.3;
+    z-index: 0;
+    padding: 40px 40px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+.child4{
+    position: relative;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    line-height: 1.3;
+    z-index: 0;
+    padding: 40px 40px;
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+.child5{
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    line-height: 1.3;
+    z-index: 0;
+    padding: 40px 40px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+
+.bundleBox{
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: center;
-	align-content: stretch;
+    align-content: stretch;
+    background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+}
+
+.logo{
+
+}
+.content{
+    display: flex;
 }
