@@ -28,19 +28,20 @@ button{
     text-transform: uppercase; 
     line-height: 1.15;
     border-radius: 0;
+    margin-left: auto;
 }
 
 .parentContainer{
     /* position: relative; */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* flex-direction: column; */
+    align-items: center;
+    flex-direction: column;
 }
 .child1{
-    position: relative;
-    flex-grow: 1;
-    flex-direction: column;
+    /* position: relative; */
+    /* flex-grow: 1; */
+    /* flex-direction: column; */
     justify-content: center;
     line-height: 1.3;
     z-index: 0;
@@ -54,9 +55,9 @@ button{
 }
 
 .child2{
-    position: relative;
-    flex-grow: 1;
-    flex-direction: column;
+    /* position: relative; */
+    /* flex-grow: 1; */
+    /* flex-direction: column; */
     justify-content: center;
     color: #fff;
     line-height: 1.3;
@@ -71,9 +72,9 @@ button{
 }
 
 .child3{
-    position: relative;
-    flex-grow: 1;
-    flex-direction: column;
+    /* position: relative; */
+    /* flex-grow: 1; */
+    /* flex-direction: column; */
     justify-content: center;
     color: #fff;
     line-height: 1.3;
@@ -87,9 +88,9 @@ button{
 }
 
 .child4{
-    position: relative;
-    flex-grow: 1;
-    flex-direction: column;
+    /* position: relative; */
+    /* flex-grow: 1; */
+    /* flex-direction: column; */
     justify-content: center;
     color: #fff;
     line-height: 1.3;
@@ -104,10 +105,10 @@ button{
 }
 
 .child5{
-    position: relative;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
+    /* position: relative; */
+    /* display: flex; */
+    /* flex-grow: 1; */
+    /* flex-direction: column; */
     justify-content: center;
     color: #fff;
     line-height: 1.3;
